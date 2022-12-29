@@ -760,6 +760,7 @@ Financial Services, Agriculture, Technology, Real Estate, Infrastructure, Culina
           w={"full"}
         >
           <SimpleGrid
+            id="FUND"
             alignItems={"center"}
             spacingX={"100px"}
             spacingY={"50px"}
@@ -980,6 +981,7 @@ Financial Services, Agriculture, Technology, Real Estate, Infrastructure, Culina
       </Flex>
     );
   }
+
   return (
     <MotionFlex
       initial={{ opacity: 0 }}

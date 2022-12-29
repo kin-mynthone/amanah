@@ -58,7 +58,7 @@ export default function NavigationBar() {
     >
       <Link
         activeClass="active"
-        to="au"
+        to="AG"
         spy={true}
         smooth={true}
         offset={0}
@@ -93,13 +93,13 @@ export default function NavigationBar() {
               color: "#E6B85E",
             }}
           >
-            About us
+            Amanah Group
           </Text>
         </MotionButton>
       </Link>
       <Link
         activeClass="active"
-        to="toi"
+        to="STAT"
         spy={true}
         smooth={true}
         offset={0}
@@ -134,14 +134,14 @@ export default function NavigationBar() {
               color: "#E6B85E",
             }}
           >
-            Types of Investments
+            Stats
           </Text>
         </MotionButton>
       </Link>
 
       <Link
         activeClass="active"
-        to="partners"
+        to="AU"
         spy={true}
         smooth={true}
         offset={-10}
@@ -176,7 +176,91 @@ export default function NavigationBar() {
               color: "#E6B85E",
             }}
           >
-            Partners
+            About Us
+          </Text>
+        </MotionButton>
+      </Link>
+
+      <Link
+        activeClass="active"
+        to="FUND"
+        spy={true}
+        smooth={true}
+        offset={-10}
+        duration={1000}
+      >
+        <MotionButton
+          backgroundColor={"transparent"}
+          _focus={{ border: "none" }}
+          _focusWithin={{ backgroundColor: "transparent" }}
+          _hover={{
+            backgroundColor: "transparent",
+            cursor: "pointer",
+          }}
+          flexDirection={"row"}
+          whileTap={{
+            scale: 0.9,
+          }}
+          whileHover={{
+            scale: 1.1,
+            color: cl,
+          }}
+          onClick={null} //update this
+        >
+          <Text
+            fontWeight={getPageIndex == 4 ? "black" : "thin"}
+            fontSize="14px"
+            color={getPageIndex == 4 ? "#E6B85E" : "#232323"}
+            _dark={{
+              color: getPageIndex == 4 ? "#E6B85E" : "gray",
+            }}
+            _hover={{
+              color: "#E6B85E",
+            }}
+          >
+            Funds
+          </Text>
+        </MotionButton>
+      </Link>
+
+      <Link
+        activeClass="active"
+        to="CON"
+        spy={true}
+        smooth={true}
+        offset={-10}
+        duration={1000}
+      >
+        <MotionButton
+          backgroundColor={"transparent"}
+          _focus={{ border: "none" }}
+          _focusWithin={{ backgroundColor: "transparent" }}
+          _hover={{
+            backgroundColor: "transparent",
+            cursor: "pointer",
+          }}
+          flexDirection={"row"}
+          whileTap={{
+            scale: 0.9,
+          }}
+          whileHover={{
+            scale: 1.1,
+            color: cl,
+          }}
+          onClick={null} //update this
+        >
+          <Text
+            fontWeight={getPageIndex == 4 ? "black" : "thin"}
+            fontSize="14px"
+            color={getPageIndex == 4 ? "#E6B85E" : "#232323"}
+            _dark={{
+              color: getPageIndex == 4 ? "#E6B85E" : "gray",
+            }}
+            _hover={{
+              color: "#E6B85E",
+            }}
+          >
+            Contact
           </Text>
         </MotionButton>
       </Link>
@@ -219,10 +303,10 @@ export default function NavigationBar() {
             >
               <Link
                 activeClass="active"
-                to="au"
+                to="AG"
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={-100}
                 duration={1000}
               >
                 <MotionButton
@@ -254,17 +338,17 @@ export default function NavigationBar() {
                       color: "#E6B85E",
                     }}
                   >
-                    About us
+                    Amanah Group
                   </Text>
                 </MotionButton>
               </Link>
 
               <Link
                 activeClass="active"
-                to="toi"
+                to="STAT"
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={-300}
                 duration={1000}
               >
                 <MotionButton
@@ -296,14 +380,56 @@ export default function NavigationBar() {
                       color: "#E6B85E",
                     }}
                   >
-                    Types of Investments
+                    Stats
                   </Text>
                 </MotionButton>
               </Link>
 
               <Link
                 activeClass="active"
-                to="partners"
+                to="AU"
+                spy={true}
+                smooth={true}
+                offset={-400}
+                duration={1000}
+              >
+                <MotionButton
+                  backgroundColor={"transparent"}
+                  _focus={{ border: "none" }}
+                  _focusWithin={{ backgroundColor: "transparent" }}
+                  _hover={{
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  }}
+                  flexDirection={"row"}
+                  whileTap={{
+                    scale: 0.9,
+                  }}
+                  whileHover={{
+                    scale: 1.1,
+                    color: cl,
+                  }}
+                  onClick={null} //update this
+                >
+                  <Text
+                    fontWeight={getPageIndex == 4 ? "black" : "thin"}
+                    fontSize="14px"
+                    color={getPageIndex == 4 ? "#E6B85E" : "#FFFFFF"}
+                    _dark={{
+                      color: getPageIndex == 4 ? "#E6B85E" : "gray",
+                    }}
+                    _hover={{
+                      color: "#E6B85E",
+                    }}
+                  >
+                    About Us
+                  </Text>
+                </MotionButton>
+              </Link>
+
+              <Link
+                activeClass="active"
+                to="FUND"
                 spy={true}
                 smooth={true}
                 offset={-80}
@@ -338,7 +464,49 @@ export default function NavigationBar() {
                       color: "#E6B85E",
                     }}
                   >
-                    Partners
+                    Funds
+                  </Text>
+                </MotionButton>
+              </Link>
+
+              <Link
+                activeClass="active"
+                to="CON"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={1000}
+              >
+                <MotionButton
+                  backgroundColor={"transparent"}
+                  _focus={{ border: "none" }}
+                  _focusWithin={{ backgroundColor: "transparent" }}
+                  _hover={{
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                  }}
+                  flexDirection={"row"}
+                  whileTap={{
+                    scale: 0.9,
+                  }}
+                  whileHover={{
+                    scale: 1.1,
+                    color: cl,
+                  }}
+                  onClick={null} //update this
+                >
+                  <Text
+                    fontWeight={getPageIndex == 4 ? "black" : "thin"}
+                    fontSize="14px"
+                    color={getPageIndex == 4 ? "#E6B85E" : "#FFFFFF"}
+                    _dark={{
+                      color: getPageIndex == 4 ? "#E6B85E" : "gray",
+                    }}
+                    _hover={{
+                      color: "#E6B85E",
+                    }}
+                  >
+                    Contact
                   </Text>
                 </MotionButton>
               </Link>

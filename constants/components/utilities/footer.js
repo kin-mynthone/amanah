@@ -17,6 +17,7 @@ export default function Footer() {
   return (
     <Flex
       w={"full"}
+      id={"CON"}
       bg="#212121"
       flexDir={"column"}
       justifyContent={"center"}
